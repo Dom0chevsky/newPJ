@@ -1,0 +1,41 @@
+.footer {
+	background-color: #3c3c3c;
+	padding: 45px 0;
+	position: relative;
+	z-index: 5;
+	&__body {
+		text-align: center;
+		
+	}
+	&__logo {
+		display: inline-block;
+		margin: 0 0 40px 0;
+	}
+	&__menu {
+		text-align: center;
+		
+	}
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 35px 0;
+		li {
+			margin: 0 15px;
+		}
+	}
+	&__link {
+		color: #a4a4a4;
+		font-size: 14px;
+		font-weight: 400;
+		&:hover {
+			color: #fff;
+		}
+	}
+	&__text {
+		color: #6c6c6c;
+		font-size: 14px;
+	}
+}
+.container {
+}
